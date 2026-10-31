@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-tomorrowlives-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://tomorrowlives.com/
+Tomorrow Lives Studio offers a suite of generative AI engines that produce printable designs, textures, characters, terrain, voice, forms, and short videos. These engines are accessible via a REST API and MCP, allowing software agents to request assets on demand. The platform operates on a pay‑per‑use model with a 30‑day pass and provides documentation, a developer portal, and an open OpenAPI specification.
+
+**Areas:** AI · Generative · Engines · API · Creative
+
+## tomorrowlives-com on APIs.io
+
+Everything profiled for tomorrowlives-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tomorrowlives-com/](https://apis.io/providers/tomorrowlives-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [tomorrowlives-com Account API](https://apis.io/apis/tomorrowlives-com/tomorrowlives-com-account-api/) — Sign up, name the owner, buy a pass or a unit pack, read the meter and the notices.
+- [tomorrowlives-com Jobs API](https://apis.io/apis/tomorrowlives-com/tomorrowlives-com-jobs-api/) — Queued jobs, their files and cancelling them.
+- [tomorrowlives-com Lab API](https://apis.io/apis/tomorrowlives-com/tomorrowlives-com-lab-api/) — Research instruments (https://tomorrowlives.com/lab). The pull engine measures whether one agent follows another beyond chance and labels the result.
+- [tomorrowlives-com MCP API](https://apis.io/apis/tomorrowlives-com/tomorrowlives-com-mcp-api/) — The same verbs as MCP tools.
+- [tomorrowlives-com Production engines API](https://apis.io/apis/tomorrowlives-com/tomorrowlives-com-production-engines-api/) — The seven engines that make an asset: print designs, materials, forms, characters, terrain, voice and video. The same request returns the same bytes.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Tomorrowlives Com Agentic Access](https://apis.io/agentic-access/tomorrowlives-com/tomorrowlives-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Job](https://apis.io/schemas/tomorrowlives-com/tomorrowlives-com-job/)
+- [JobState](https://apis.io/schemas/tomorrowlives-com/tomorrowlives-com-job-state/)
+- [JobStatus](https://apis.io/schemas/tomorrowlives-com/tomorrowlives-com-job-status/)
+- [QueuedJob](https://apis.io/schemas/tomorrowlives-com/tomorrowlives-com-queued-job/)
+- [Signup](https://apis.io/schemas/tomorrowlives-com/tomorrowlives-com-signup/)
+- [Subscription](https://apis.io/schemas/tomorrowlives-com/tomorrowlives-com-subscription/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tomorrowlives Com Context](https://apis.io/jsonld/tomorrowlives-com/tomorrowlives-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [tomorrowlives-com API Rules](https://apis.io/rules/tomorrowlives-com/tomorrowlives-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tomorrowlives Com Authentication](https://apis.io/security/tomorrowlives-com/tomorrowlives-com-authentication/)
+- [Tomorrowlives Com Domain Security](https://apis.io/security/tomorrowlives-com/tomorrowlives-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tomorrowlives Com Plans Pricing](https://apis.io/plans/tomorrowlives-com/tomorrowlives-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Tomorrowlives Com Rate Limits](https://apis.io/rate-limits/tomorrowlives-com/tomorrowlives-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tomorrowlives.com/)
+- [Documentation](https://tomorrowlives.com/lab)
+- [Getting started](https://tomorrowlives.com/engines)
+- [API reference](https://tomorrowlives.com/api/agents/openapi.json)
+- [Pricing](https://tomorrowlives.com/lab/pull/pricing)
+- [Sign up](https://tomorrowlives.com/account/login)
+- [Blog](https://tomorrowlives.com/blog)
+- [Terms of service](https://tomorrowlives.com/account/terms)
+- [Privacy policy](https://tomorrowlives.com/account/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.2** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 48.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tomorrowlives-com/](https://apis.io/providers/tomorrowlives-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for tomorrowlives-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tomorrowlives-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
